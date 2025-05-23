@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta property="og:title" content="MadEgg TV"/>
+  <meta name="theme-color" content="#b53636"/>
+  <meta name="msapplication-TileColor" content="#b53636"/>
+  <meta property="og:image" content="/assets/images/favicon.ico"/>
+  <meta name="description" content="MadEgg TV. A fast, sleek, and seamless streaming experience."/>
+  <title>MadEgg TV</title>
+  <link href="https://cdn.jsdelivr.net/gh/aquawolf04/font-awesome-pro@5cd1511/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://movies.usewaves.site/assets/index.css"/>
+  <script src="https://movies.usewaves.site/assets/index.js" defer></script>
+  <script type='text/javascript' src='https://spaniardinformationbookworm.com/f0/e8/15/f0e81559842363ebf19aa99900ff2d02.js'></script>
+</head>
+<body>
+  <header class="header">
+    <img src="https://movies.usewaves.site/assets/images/favicon.ico" alt="Site Icon" class="header-icon"/>
+    <div class="header-title">MadEgg TV</div>
+  </header>
+
+  <div class="fixed-search">
+    <div class="search-container">
+      <input id="search" placeholder="What would you like to watch?" autocomplete="off" aria-label="Search movies"/>
+    </div>
+  </div>
+
+  <section class="hero">
+    <h1>Welcome!</h1>
+  </section>
+
+  <div class="main-content">
+    <div class="section" id="search-results" style="display:none">
+      <div class="search-info" id="search-info"></div>
+      <div class="movies-grid results"></div>
+      <button class="load-more" id="loadMoreBtn" style="display:none">Load More</button>
+      <div class="end-message" id="endMessage" style="display:none">
+        No more results :(( want to load more?
+      </div>
+      <div id="no-movies" class="no-movies" style="display:none">No movies found.</div>
+    </div>
+
+    <div id="other-sections">
+      <div class="section" id="favorites" style="display:none">
+        <h2 class="section-header">Favorites</h2>
+        <div class="movies-grid favorites-movies"></div>
+      </div>
+
+      <div class="section" id="recommendations" style="display:none">
+        <h2 class="section-header">Recommendations</h2>
+        <div class="slider-container">
+          <button class="slider-btn prev" aria-label="Previous">
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+          <div class="slider-track recommendations"></div>
+          <button class="slider-btn next" aria-label="Next">
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="section" id="popular">
+        <h2 class="section-header">Popular Movies</h2>
+        <div class="slider-container">
+          <button class="slider-btn prev" aria-label="Previous">
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+          <div class="slider-track popular-movies"></div>
+          <button class="slider-btn next" aria-label="Next">
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="section" id="top-rated">
+        <h2 class="section-header">Top Rated Movies</h2>
+        <div class="slider-container">
+          <button class="slider-btn prev" aria-label="Previous">
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+          <div class="slider-track top-rated-movies"></div>
+          <button class="slider-btn next" aria-label="Next">
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+      <div class="section" id="upcoming">
+        <h2 class="section-header">Upcoming Movies</h2>
+        <div class="slider-container">
+          <button class="slider-btn prev" aria-label="Previous">
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+          <div class="slider-track upcoming-movies"></div>
+          <button class="slider-btn next" aria-label="Next">
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="overlay">
+    <div id="content">
+      <button class="close-btn" id="close-btn">&times;</button>
+      <h2 id="movie-title"></h2>
+      <p id="movie-details"></p>
+      <div class="video-container">
+         <iframe id="player"></iframe>
+      </div>
+    </div>
+  </div>
+  <div id="loading" class="loading">
+    <div class="spinner"></div>
+    Loading movies...
+  </div>
+  <script type='text/javascript' src='https://spaniardinformationbookworm.com/08/db/84/08db842da9b43ad3d13c14634f9fd1c8.js'></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"943ced8aaf602ebd","version":"2025.4.0-1-g37f21b1","r":1,"token":"4e7568250b954e8aab6b5dcd99e2c828","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}}}' crossorigin="anonymous"></script>
+</body>
+</html>
